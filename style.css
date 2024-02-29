@@ -1,0 +1,76 @@
+*{
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid black;
+}
+.youtube{
+  display: flex;
+  border: 1px solid black;
+  align-items: center;
+}
+.menubtn{
+  padding-left: 20px;
+  height: 20px;
+  width: 20px;
+}
+.Yout{
+  padding-left: 20px;
+  width: 100px;
+  height: 30px;
+}
+.searchbar{
+  border:gray ;
+  border-radius: 12px;
+}
+.search-container {
+  display: flex;
+  width: 500px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+}
+
+.srch{
+  padding: 4px;
+  width: 18px;
+  height: 18px;
+}
+.searchButton {
+  height: 100%;
+  width: 40px;
+
+}
+.searchInput{
+  height: 100%;
+  width: 100%;
+  border: 1px solid gray;
+}
+
+.scroll-container {
+  border: 1px solid black;
+    width: 100%;
+    overflow-x: auto;
+  }
+  
+  .scroll-items {
+    white-space: nowrap;
+  }
+  
+  .scroll-item {
+    border-radius: 4px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 14px;
+    padding-right: 14px;
+    display: inline-block;
+    height:fit-content;
+    background-color: #cccccc89;
+    margin: 5px;
+  }
+  
