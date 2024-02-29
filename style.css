@@ -7,11 +7,9 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border: 1px solid black;
 }
 .youtube{
   display: flex;
-  border: 1px solid black;
   align-items: center;
 }
 .menubtn{
@@ -24,36 +22,61 @@
   width: 100px;
   height: 30px;
 }
-.searchbar{
-  border:gray ;
-  border-radius: 12px;
-}
 .search-container {
   display: flex;
-  width: 500px;
-  height: 24px;
-  display: flex;
+  margin: 6px;
   align-items: center;
+  height: 34px;
+  width: 500px; /* Adjust width as needed */
+  border-radius: 34px;
+  border: 1px solid rgba(128, 128, 128, 0.493);
+  overflow: hidden;
 }
 
+input[type="text"] {
+  flex: 1;
+  padding: 10px 20px;
+  font-size: 16px;
+}
 .srch{
-  padding: 4px;
-  width: 18px;
-  height: 18px;
+  width: 20px;
+  height: 20px;
 }
-.searchButton {
-  height: 100%;
-  width: 40px;
+.signin-button {
+  background-color: rgba(128, 128, 128, 0.29);
+  border: none;
+ padding: 10px 20px;
+  cursor: pointer;
+}
+.account{ 
+  margin-right: 20px;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+}
+.create-video{
+  width: 24px;
+  height: 24px;
+}
+.bell{
+  padding-left: 35px;
+  padding-right:35px ;
+}
+.circle {
+  width: 24px; /* Set the width and height of the circle */
+  height: 24px;
+  border-radius: 50%; /* Make it a circle by setting border-radius to 50% */
+  overflow: hidden; /* Ensure the image is clipped to the circular shape */
+}
 
+.circle img {
+
+  width: 100%; /* Make the image fill the container */
+  height: auto; /* Maintain aspect ratio */
 }
-.searchInput{
-  height: 100%;
-  width: 100%;
-  border: 1px solid gray;
-}
+
 
 .scroll-container {
-  border: 1px solid black;
     width: 100%;
     overflow-x: auto;
   }
